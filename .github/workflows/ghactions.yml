@@ -1,11 +1,11 @@
 name: "GitHub Actions Test"
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - .github/workflows/**
+#  push:
+#    branches:
+#      - main
+#    paths:
+#      - .github/workflows/**
   workflow_dispatch:
 
 permissions:
