@@ -1,4 +1,4 @@
-name: "GitHub Actions2"
+name: "GitHub Actions3"
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - .github/workflows/**
-#  workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
   id-token: write
